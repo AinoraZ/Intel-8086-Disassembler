@@ -8,5 +8,7 @@ Disassembles about 80% of all Intel 8086 instructions.
 Dosbox and Turbo Assembler (tasm) should be installed on the computer to run this program.
 
 `tasm disasm`
+
 `tlink disasm`
+
 `disasm.exe [input file] [output file]`
