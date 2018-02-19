@@ -443,14 +443,14 @@ opcInfoStart 		DB 0
 	;IRET
 	opcInfo<opcIRet, no_abyte, w_byte, no_reg, noReg, arg_none, arg_none, no_sr>		; CF
 	;ROL
-	opcInfo<opcxD0, abyte, w_byte, no_reg, noReg, arg_rm, arg_one, no_sr>			; D0
-	opcInfo<opcxD0, abyte, w_word, no_reg, noReg, arg_rm, arg_one, no_sr>			; D1
-	opcInfo<opcxD0, abyte, w_byte, reg, regCL, arg_rm, arg_reg, no_sr>			; D2
-	opcInfo<opcxD0, abyte, w_word, reg, regCL, arg_rm, arg_reg, no_sr>			; D3
+	opcInfo<opcxD0, abyte, w_byte, no_reg, noReg, arg_rm, arg_one, no_sr>				; D0
+	opcInfo<opcxD0, abyte, w_word, no_reg, noReg, arg_rm, arg_one, no_sr>				; D1
+	opcInfo<opcxD0, abyte, w_byte, reg, regCL, arg_rm, arg_reg, no_sr>					; D2
+	opcInfo<opcxD0, abyte, w_word, reg, regCL, arg_rm, arg_reg, no_sr>					; D3
 	;UNK
-	opcInfo<opcUnk, abyte, w_byte, no_reg, noReg, arg_rm, arg_none, no_sr>			; D4
-	opcInfo<opcUnk, abyte, w_byte, no_reg, noReg, arg_rm, arg_none, no_sr>			; D5
-	opcInfo<opcUnk, abyte, w_byte, no_reg, noReg, arg_rm, arg_none, no_sr>			; D6
+	opcInfo<opcUnk, abyte, w_byte, no_reg, noReg, arg_rm, arg_none, no_sr>				; D4
+	opcInfo<opcUnk, abyte, w_byte, no_reg, noReg, arg_rm, arg_none, no_sr>				; D5
+	opcInfo<opcUnk, abyte, w_byte, no_reg, noReg, arg_rm, arg_none, no_sr>				; D6
 	;XLAT
 	opcInfo<opcXlat, no_abyte, w_byte, no_reg, noReg, arg_none, arg_none, no_sr>		; D7
 	;UNK
